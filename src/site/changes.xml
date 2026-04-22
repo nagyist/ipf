@@ -24,6 +24,9 @@
     </properties>
     <body>
         <release version="5.2.0" description="IPF 5.2.0" date="">
+            <action issue="512" dev="ohr" type="update">
+                Selecting uniqueIds from a NamingSystem resource by type will now respect the "preferred" flag
+            </action>
             <action issue="511" dev="qligier" type="fix">
                 Fix case of HL7v3 statusCodes in transformers
             </action>
